@@ -1,0 +1,26 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.all {
+  margin: 15px;
+}
+
+.title {
+  background-color: #161616;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.name {
+  color: #6B39FC;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.powered {
+  font-size: 10px;
+  color: #fff;
+}
