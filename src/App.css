@@ -29,13 +29,14 @@ body {
   background-color: #161616;
   padding: 20px;
   border-radius: 10px;
+  height: 120px;
 }
 
 .box-2{
   background-color: #161616;
   padding: 20px;
   border-radius: 10px;
-  height: 490px;
+  height: 512px;
 }
 
 .box-3{
@@ -47,7 +48,7 @@ body {
 
 .name {
   color: #6B39FC;
-  font-size: 38px;
+  font-size: 39px;
   margin-bottom: 20px;
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
-import './Playlist.css'
+import './Playlist.css';
+import fakeMusicData from '../../fakedata/data'
 
 const Playlist = () => {
     return (
@@ -16,8 +17,20 @@ const Playlist = () => {
                 <button className="put">Modify Your Playlist</button>
                 <button className="save">Save to Spotify</button>
             </div>
-            <div className="content-1">
-                <p>Your playlist is empty</p>
+            <div className="gap">
+                {fakeMusicData.map(e => (
+                    <div className="song">
+                        <div className="flex-2">
+                            <div className="img-2"></div>
+                            <div className="gap-2">
+                                <p className="song-2">{e.chanson}</p>
+                                <p className="artist">{e.artiste}</p>
+                            </div>
+                        </div>
+                        <p className="album">{e.album}</p>
+                        <button className="remove">Remove</button>
+                    </div>
+                ))}
             </div>
         </div>
     )
