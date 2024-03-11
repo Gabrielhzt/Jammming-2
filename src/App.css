@@ -5,19 +5,50 @@ body {
 
 .all {
   margin: 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "first playlist"
+  "search playlist";
+  gap: 15px;
 }
 
-.title {
+.first-box {
+  grid-area: first;
+}
+
+.playlist-box {
+  grid-area: playlist;
+}
+
+.search-box {
+  grid-area: search;
+}
+
+.box{
   background-color: #161616;
-  margin-bottom: 50px;
   padding: 20px;
   border-radius: 10px;
 }
 
+.box-2{
+  background-color: #161616;
+  padding: 20px;
+  border-radius: 10px;
+  height: 490px;
+}
+
+.box-3{
+  background-color: #161616;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
 .name {
   color: #6B39FC;
-  font-size: 35px;
-  margin-bottom: 10px;
+  font-size: 38px;
+  margin-bottom: 20px;
 }
 
 .powered {

@@ -1,0 +1,14 @@
+.search {
+    background-color: #161616;
+}
+
+.center {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center p {
+    color: #aaaaaa;
+}
