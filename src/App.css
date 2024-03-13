@@ -19,6 +19,7 @@ body {
 
 .playlist-box {
   grid-area: playlist;
+  flex-shrink: 2;
 }
 
 .search-box {
@@ -29,14 +30,14 @@ body {
   background-color: #161616;
   padding: 20px;
   border-radius: 10px;
-  height: 120px;
+  height: 130px;
 }
 
 .box-2{
   background-color: #161616;
   padding: 20px;
   border-radius: 10px;
-  height: 512px;
+  height: 505px;
 }
 
 .box-3{
@@ -55,4 +56,27 @@ body {
 .powered {
   font-size: 10px;
   color: #fff;
+}
+
+@media (max-width: 1200px) {
+
+  .all {
+    grid-template-columns: 400px 1fr;
+  }
+
+}
+
+@media (max-width: 970px) {
+
+  .all {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "first"
+    "search"
+    "playlist";
+    gap: 15px;
+  }
+
 }

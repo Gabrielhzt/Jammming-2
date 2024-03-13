@@ -86,9 +86,9 @@
     flex-direction: column;
     gap: 15px;
     border-top: 1px solid #fff;
-    padding-top: 50px;
+    padding-top: 25px;
     overflow-y: scroll;
-    height: 220px;
+    height: 250px;
 }
 
 .gap-2 {
@@ -125,4 +125,40 @@
 
 .artist {
     font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+    .album {
+        display: none;
+    }
+
+    .img {
+        width: 170px;
+        height:170px;
+        background-color: #6B39FC;
+        border-radius: 10px;
+    }
+
+    .gap {
+        height: 340px;
+    }
+
+    .size {
+        font-size: 35px;
+    }
+
+    .save {
+        font-size: 16px;
+        padding: 7px 14px;
+    }
+
+    .put {
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 }
