@@ -1,6 +1,6 @@
 import React from "react";
 import './Search.css';
-import SearchBar from "../SearchResult/SearchBar";
+import SearchBar from "../SearchBar/SearchBar";
 import fakeMusicData from "../../fakedata/data";
 
 const Search = () => {

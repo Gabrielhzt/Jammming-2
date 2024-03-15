@@ -8,9 +8,9 @@ const Playlist = () => {
             <div className="flex">
                 <div className="img"></div>
                 <div className="info">
-                    <p>Playlist</p>
+                    <p className="info-2">Playlist</p>
                     <h1 className="size">My Playlist</h1>
-                    <p>Gab</p>
+                    <p className="info-2">Gab</p>
                 </div>
             </div>
             <div className="btn">
